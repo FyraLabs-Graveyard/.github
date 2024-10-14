@@ -15,6 +15,8 @@ You're probably asking why there's bits of Innatical code here. Innatical was th
 ## Pax
 This one is a mix of Fivnex and Innatical. Pax was a package manager designed for immutable systems, it would install packages to mutable places in a OSTree-based system, kinda like Homebrew. The goal was to solve the problem of Flatpaks being sandboxes and the tree needing to be mutated for other packages to be added. As mentioned before, there were two implementations of Pax that could both work with the same packages, @ItsJamie9494 developed a version which we called "Fivnex Pax" and @lleyton developed a version in Golang that we called "Innatical Pax" (which eventually became the default, you can find those repos in this org.) We wrote Pax in a week or two, and it was initially going to be tauOS' selling point, but we decided that Flatpak was advanced enough and RPM layering was better than this solution, so we switched from an Arch/LFS with OSTree base to RPM-OSTree, which is how we got to today.
 
+Note: As of writing (10/14/24) we have a copy of Fivnex Pax in our collection, but it is currently private. This is due to it containing a contributor's deadname. We will publicize this repository with an altered history in the future.
+
 ## Ultramarine Linux
 Abandoned or superseded bits of Ultramarine are in here, a lot of them are from before Ultramarine joined Fyra, including this here for completeness.
 
