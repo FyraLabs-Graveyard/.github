@@ -20,6 +20,8 @@ Note: As of writing (10/14/24) we have a copy of Fivnex Pax in our collection, b
 ## Ultramarine Linux
 Abandoned or superseded bits of Ultramarine are in here, a lot of them are from before Ultramarine joined Fyra, including this here for completeness.
 
+Note: kanopy-old is not equivalent to modern Kanopy, they are both part of the same idea but kanopy-old is a homegrown project, and Kanopy is an adopted UBlue Project (being CCOS)
+
 ## Fyra itself
 Self-explanatory.
 
